@@ -40,6 +40,8 @@ str(ds)
 summary(ds)
 skewness(ds$age,ds$fl)
 kurtosis(ds$age,ds$fl)
+var(ds$age,ds$fl)
+sd(ds$age,ds$fl)
 # 9. Create a scatterplot for “age” (y variable) and “fl” (x variable) with the following 
 # specifications: 
 #  Limit of x axis is (0,500) 
