@@ -111,16 +111,16 @@ initialize(cols,ds$era)
 #  Y axis label is “Fork Length (mm)” 
 #  Set pch equal to pchs era values 
 #  Set col equal to cols era values 
-plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),xlab = "Age(yrs)",ylab = "Fork Length(mm)",
+plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),ylab = "Age(yrs)",xlab = "Fork Length(mm)",
      main = "Plot 4: Symbol & Color by Era",pch = pchs,col=cols)
 # 19. Plot a regression line overlay on Plot 4 and title the new graph “Plot 5: Regression 
 # Overlay”. 
-plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),xlab = "Age(yrs)",ylab = "Fork Length(mm)",
+plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),ylab = "Age(yrs)",xlab = "Fork Length(mm)",
      main = "Plot 5: Regression Overlay",pch = pchs,col=cols)
 abline(lm(age~fl, data = ds)) 
 
 # 20. Place a legend of on Plot 5 and call the new graph “Plot 6: :Legend Overlay” 
-plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),xlab = "Age(yrs)",ylab = "Fork Length(mm)",
+plot(ds$fl,ds$age,xlim = c(0,500), ylim = c(0,15),ylab = "Age(yrs)",xlab = "Fork Length(mm)",
      main = "Plot 6: Legend Overlay",pch = pchs,col=cols)
 
 abline(lm(age~fl, data = ds)) 
